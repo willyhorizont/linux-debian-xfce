@@ -1,3 +1,8 @@
+[Last updated: 08 Sep 2026 @ 12:53 AM][version: 0.0.8]
+update SPRM.sh;
+update SuckMyClock.sh;
+update whoami.sh;
+
 [Last updated: 08 Sep 2026 @ 12:47 AM][version: 0.0.7]
 update whoami.sh;
 
