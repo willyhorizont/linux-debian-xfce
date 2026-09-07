@@ -61,13 +61,14 @@ sudo mousepad ~/.config/gtk-3.0/gtk.css
 
 11. Change lock screen
 ```
+# install
 sudo apt install lightdm-gtk-greeter-settings -y
-```
-```
-/usr/share/backgrounds/
-```
-```
+
+# copy image to:
 /usr/share/images/
+
+# change lock screen clock format to:
+%a, %d %b %Y | %I:%M:%S %p
 ```
 
 12. See [linux > cheatsheet > debian-apt.md](https://github.com/willyhorizont/linux/blob/main/cheatsheet/debian-apt.md)
