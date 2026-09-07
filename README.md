@@ -1,6 +1,6 @@
 # Debian+XFCE Post Install
 
-1. Do linux > post-install > debian-apt.md > A
+1. Do [linux > post-install > debian-apt.md > A](https://github.com/willyhorizont/linux/blob/main/post-install/debian-apt.md#a)
 
 2. Disable beep
 ```
@@ -40,7 +40,7 @@ Description=Open xfce4-popup-whiskermenu on Super key press
 Command=xcape -e 'Super_L=Alt_L|F1;Super_R=Alt_L|F1'
 ```
 
-7. Install linux > themes > gtk3
+7. Install [linux > themes > gtk3.md](https://github.com/willyhorizont/linux/blob/main/themes/gtk3.md)
 
 8. Apply Cursor theme globally
 ```
@@ -57,7 +57,7 @@ sudo mousepad ~/.config/gtk-3.0/gtk.css
 }
 ```
 
-10. Do linux > post-install > general.md > A
+10. Do [linux > post-install > general.md > A](https://github.com/willyhorizont/linux/blob/main/post-install/general.md#a)
 
 11. Change lock screen
 ```
@@ -70,4 +70,6 @@ sudo apt install lightdm-gtk-greeter-settings -y
 /usr/share/images/
 ```
 
-12. See linux > cheatsheet > debian-apt.md
+12. See [linux > cheatsheet > debian-apt.md](https://github.com/willyhorizont/linux/blob/main/cheatsheet/debian-apt.md)
+
+13. See [linux > cheatsheet > general.md](https://github.com/willyhorizont/linux/blob/main/cheatsheet/general.md)

@@ -1,3 +1,6 @@
+[Last updated: 07 Sep 2026 @ 11:47 PM][version: 0.0.6]
+add hyperlink;
+
 [Last updated: 07 Sep 2026 @ 09:19 PM][version: 0.0.5]
 update super key command;
 
