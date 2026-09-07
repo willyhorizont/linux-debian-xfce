@@ -37,7 +37,7 @@ sudo apt install xcape -y
 ```
 Name=Xcape Super Key
 Description=Open xfce4-popup-whiskermenu on Super key press
-Command=xcape -e Super_L=Alt_L|F1;Super_R=Alt_L|F1
+Command=xcape -e 'Super_L=Alt_L|F1;Super_R=Alt_L|F1'
 ```
 
 7. Install linux > themes > gtk3
