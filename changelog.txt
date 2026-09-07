@@ -1,3 +1,6 @@
+[Last updated: 08 Sep 2026 @ 12:47 AM][version: 0.0.7]
+update whoami.sh;
+
 [Last updated: 07 Sep 2026 @ 11:47 PM][version: 0.0.6]
 add hyperlink;
 
