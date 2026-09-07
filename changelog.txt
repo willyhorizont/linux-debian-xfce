@@ -1,3 +1,6 @@
+[Last updated: 07 Sep 2026 @ 02:28 PM][version: 0.0.2]
+update README, remove general;
+
 [Last updated: 07 Sep 2026 @ 01:35 PM][version: 0.0.1]
 update README;
 

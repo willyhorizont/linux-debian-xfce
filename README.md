@@ -1,32 +1,8 @@
 # Debian+XFCE Post Install
 
-## Change password
-```
-sudo -i
-passwd
-exit
-passwd "$USER"
-exit
-```
+1. Do linux > post-install > debian-apt.md > A
 
-## change closest faster mirror
-```
-/etc/apt/sources.list
-```
-
-## Refresh metadata and upgrade all system packages
-```
-sudo apt update && sudo apt upgrade
-```
-
-## Github login
-```
-sudo apt install gh git
-git config --global init.defaultBranch main
-gh auth login
-```
-
-## Disable beep
+2. Disable beep
 ```
 xset b off
 xfconf-query -c xfce4-desktop -p /backends/bell -s false 2>/dev/null || xfconf-query -c xfce4-mixers -p /sound-bell -s false 2>/dev/null
@@ -39,22 +15,22 @@ xset b off
 echo -e "[Desktop Entry]\nType=Application\nName=Disable X11 Bell\nExec=xset b off\nHidden=false\nNoDisplay=false\nX-GNOME-Autostart-enabled=true" > ~/.config/autostart/disable-bell.desktop
 ```
 
-## Disable screen locker
+3. Disable screen locker
 ```
 # toggle screen locker (light-locker) in autostart
 ```
 
-## Install bluetooth
+4. Install bluetooth
 ```
 sudo apt install blueman -y
 ```
 
-## Install pinned + opened window list
+5. Install pinned + opened window list
 ```
 sudo apt install xfce4-docklike-plugin -y
 ```
 
-## Turn on super key on startup
+6. Turn on super key on startup
 ```
 sudo apt install xcape -y
 ```
@@ -64,29 +40,14 @@ Description=Open xfce4-popup-whiskermenu on Super key press
 Command=xcape -e Super_L=Alt_L|F1;Super_R=Alt_L|F1
 ```
 
-## Cursor
+7. Do linux > post-install > debian-apt.md > B
+
+8. Apply Cursor theme globally
 ```
-sudo apt install dmz-cursor-theme -y
-sudo apt install breeze-cursor-theme -y
 sudo update-alternatives --config x-cursor-theme
 ```
 
-## Icon theme
-```
-sudo apt install papirus-icon-theme
-```
-
-## Style theme
-```
-sudo apt install yaru-theme-gtk
-```
-
-## Window theme
-```
-sudo apt install greybird-gtk-theme -y
-```
-
-## Change start menu icon button size, make bigger
+9. Change start menu icon button size, make bigger
 ```
 sudo mousepad ~/.config/gtk-3.0/gtk.css
 ```
@@ -96,14 +57,9 @@ sudo mousepad ~/.config/gtk-3.0/gtk.css
 }
 ```
 
-## ABDownloadManager Killer
-```
-echo -e "[Desktop Entry]\nVersion=1.0\nType=Application\nName=Exit ABDownloadManager\nComment=Kill ABDownloadManager Process\nExec=pkill -f ABDownloadManager\nIcon=process-stop\nCategories=Utility;\nTerminal=false\nStartupNotify=false" > ~/.local/share/applications/exit-abdownloadmanager.desktop
-update-desktop-database ~/.local/share/applications/ && xfce4-panel --restart
-xfwm4 --replace &
-```
+10. Do linux > post-install > general.md > A
 
-## Change lock screen
+11. Change lock screen
 ```
 sudo apt install lightdm-gtk-greeter-settings -y
 ```
@@ -113,3 +69,5 @@ sudo apt install lightdm-gtk-greeter-settings -y
 ```
 /usr/share/images/
 ```
+
+12. See linux > cheatsheet > apt.md
