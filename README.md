@@ -70,4 +70,4 @@ sudo apt install lightdm-gtk-greeter-settings -y
 /usr/share/images/
 ```
 
-12. See linux > cheatsheet > apt.md
+12. See linux > cheatsheet > debian-apt.md
