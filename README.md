@@ -40,7 +40,7 @@ Description=Open xfce4-popup-whiskermenu on Super key press
 Command=xcape -e Super_L=Alt_L|F1;Super_R=Alt_L|F1
 ```
 
-7. Do linux > post-install > debian-apt.md > B
+7. Install linux > themes > gtk3
 
 8. Apply Cursor theme globally
 ```

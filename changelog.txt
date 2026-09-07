@@ -1,3 +1,6 @@
+[Last updated: 07 Sep 2026 @ 03:10 PM][version: 0.0.4]
+update README, add install themes;
+
 [Last updated: 07 Sep 2026 @ 02:30 PM][version: 0.0.3]
 update README, remove general part 2;
 
