@@ -1,5 +1,7 @@
 # Debian+XFCE Post Install
 
+![Debian Xfce Screenshot](https://github.com/willyhorizont/linux-debian-xfce/blob/main/screenshot.jpg)  
+
 1. Do [linux > post-install > debian-apt.md > A](https://github.com/willyhorizont/linux/blob/main/post-install/debian-apt.md#a)
 
 2. Disable beep
