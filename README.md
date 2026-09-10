@@ -17,9 +17,12 @@ xset b off
 echo -e "[Desktop Entry]\nType=Application\nName=Disable X11 Bell\nExec=xset b off\nHidden=false\nNoDisplay=false\nX-GNOME-Autostart-enabled=true" > ~/.config/autostart/disable-bell.desktop
 ```
 
-3. Disable screen locker
+8. Uncheck this in Session and Startup > Application Autostart:
 ```
-# toggle screen locker (light-locker) in autostart
+screen locker (light-locker)
+Print Queue Applet (system-config-printer)
+Clipman (Clipboard Manager)
+xiccd
 ```
 
 4. Install bluetooth
