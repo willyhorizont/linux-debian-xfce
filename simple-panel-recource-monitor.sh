@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/usr/bin/sh
 
-LABEL_TEXT=$($HOME/Codes/linux/SPRM.pl)
+LABEL_TEXT=$($HOME/Codes/linux/SPRM-c)
+# LABEL_TEXT=$($HOME/Codes/linux/SPRM-cpp)
+# LABEL_TEXT=$($HOME/Codes/linux/SPRM.awk)
+# LABEL_TEXT=$($HOME/Codes/linux/SPRM.pl)
 # LABEL_TEXT=$($HOME/Codes/linux/SPRM.sh)
 # LABEL_TEXT=$($HOME/Codes/linux/SPRM.py)
 

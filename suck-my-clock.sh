@@ -1,6 +1,9 @@
-#!/bin/bash
+#!/usr/bin/sh
 
-LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock.pl)
+LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock-c)
+# LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock-cpp)
+# LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock.awk)
+# LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock.pl)
 # LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock.sh)
 # LABEL_TEXT=$($HOME/Codes/linux/SuckMyClock.py)
 
