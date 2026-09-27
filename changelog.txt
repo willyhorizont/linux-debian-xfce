@@ -1,3 +1,7 @@
+[Last updated: 28 Sep 2026 @ 02:13 AM][version: 0.0.14]
+update genmon-SPRM.sh;
+update genmon-SuckMyClock.sh;
+
 [Last updated: 27 Sep 2026 @ 06:09 PM][version: 0.0.13]
 add SPRM.c;
 add SPRM.cpp;

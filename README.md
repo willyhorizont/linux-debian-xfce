@@ -79,3 +79,14 @@ sudo apt install lightdm-gtk-greeter-settings -y
 12. See [linux > cheatsheet > debian-apt.md](https://github.com/willyhorizont/linux/blob/main/cheatsheet/debian-apt.md)
 
 13. See [linux > cheatsheet > general.md](https://github.com/willyhorizont/linux/blob/main/cheatsheet/general.md)
+
+14. Manually configure top-bar and bottom-panel
+```sh
+# top-bar
+sh -c "~/willyhorizont.github.io/linux-debian-xfce/genmon-SPRM.sh"
+sh -c "~/willyhorizont.github.io/linux-debian-xfce/genmon-whoami.sh"
+sh -c "~/willyhorizont.github.io/linux-debian-xfce/genmon-SuckMyClock.sh"
+# bottom-panel
+sh -c "~/willyhorizont.github.io/linux/indicator-cam.sh"
+sh -c "~/willyhorizont.github.io/linux/indicator-mic.sh"
+```
